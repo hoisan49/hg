@@ -1084,8 +1084,8 @@ var tegakiJs=(function(){
 		oest1.style.width = (w/superScale) + 'px';
 		oest1.style.height = (h/superScale) + 'px';
 		oest1.style.transform = 'scale(' + viewScale + ')';
-		if (w/superScale*viewScale > 344){w = ~~(w/superScale*viewScale);}else{w = 344;}
-		if (h/superScale*viewScale > 135){h = ~~(h/superScale*viewScale);}else{h= 135;}
+		if (h/superScale*viewScale > 344){h = ~~(h/superScale*viewScale);}else{h = 344;}
+		if (w/superScale*viewScale > 135){w = ~~(w/superScale*viewScale);}else{w = 135;}
 		oe3.style.width = (w+46)+'px';
 		oe3.style.height = (h+20)+'px';
 	}
