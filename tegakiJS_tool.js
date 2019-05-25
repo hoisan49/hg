@@ -1110,14 +1110,14 @@ function rewriteInit(){
 	oe3=d.getElementById('oe3');
 	oe3.style.position='absolute';
 	oe3.style.backgroundColor='#f0d0c3';
-	oe3.style.width='344px';
-	oe3.style.height='155px';
+	oe3.style.width='400x';
+	oe3.style.height='400px';
 	oe3.style.boxShadow='2px 6px 4px rgba(0,0,0,0.3)';
 	oe3.style.visibility='visible';
 	
 	oest1=d.getElementById('oest1');
-	oest1.style.width='344px';
-	oest1.style.height='135px';
+	oest1.style.width='400px';
+	oest1.style.height='400px';
 	oest1.style.transform='scale(1)';
 	oest1.style.transformOrigin='0 0';
 	
@@ -1184,8 +1184,8 @@ function rewriteInit(){
 	ftxa=d.getElementById('ftxa');
 	oe3.style.width=(344+46)+'px';
 	ftxa.parentNode.style.position='relative';
-	swfc.style.width='344px';
-	swfc.style.height='135px';
+	swfc.style.width='400px';
+	swfc.style.height='400px';
 	ftxa.parentNode.style.maxWidth='none';
 	ftxa.style.position='absolute';
 	ftxa.style.top=ftxa.style.left=0;
