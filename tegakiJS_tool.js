@@ -47,8 +47,8 @@ var tegakiJs=(function(){
 	var delayedLastX = 0;
 	var delayedLastY = 0;
 	var bogoLength = 0;
-	var originalWidth = 344;
-	var originalHeight = 135;
+	var originalWidth = 400;
+	var originalHeight = 400;
 	var superScale = 1;
 	var viewScale = 1.0;
 	var flipToggle=false;
@@ -1116,8 +1116,8 @@ function rewriteInit(){
 	oe3.style.visibility='visible';
 	
 	oest1=d.getElementById('oest1');
-	oest1.style.width='400px';
-	oest1.style.height='400px';
+	oest1.style.width='344px';
+	oest1.style.height='135px';
 	oest1.style.transform='scale(1)';
 	oest1.style.transformOrigin='0 0';
 	
