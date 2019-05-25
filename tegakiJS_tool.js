@@ -4,7 +4,7 @@ function ChangeDraw(mode){
 	var d=document,txvs,oevs,t,j=false,jm=false,v="visible",h="hidden",b="block",n="none";
 	if(!swfloaded){
 		swfloaded=true;
-		tegakiJs.Init("oe3",344,135);
+		tegakiJs.Init("oe3",400,400);
 		if(t=d.getElementById("oebtnf")){t.style.display="none";}
 	}
 	if(d.getElementById("oe3").style.visibility==v){
