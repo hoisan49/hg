@@ -1110,7 +1110,7 @@ function rewriteInit(){
 	oe3=d.getElementById('oe3');
 	oe3.style.position='absolute';
 	oe3.style.backgroundColor='#f0d0c3';
-	oe3.style.width='400x';
+	oe3.style.width='400px';
 	oe3.style.height='400px';
 	oe3.style.boxShadow='2px 6px 4px rgba(0,0,0,0.3)';
 	oe3.style.visibility='visible';
