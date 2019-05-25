@@ -1309,9 +1309,9 @@ function rewriteInit(){
 		ss=str[1];
 		if( !ss || isNaN(ss) ){ss=1;}else{ss=~~(1/ss);}
 	
-		w=prompt('幅(100-400) 初期値：344(px)',~~(cw/ss));
+		w=prompt('幅(100-400) 初期値：400(px)',~~(cw/ss));
 		if (w!=null){
-			h=prompt('高さ(100-400) 初期値：135(px)',~~(ch/ss));
+			h=prompt('高さ(100-400) 初期値：400(px)',~~(ch/ss));
 			if (h!=null){
 				if(isNaN(w+h)||!w||!h){
 					alert('数値を入力してください w:'+w+'h:'+h);
